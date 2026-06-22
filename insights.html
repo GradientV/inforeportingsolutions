@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Insights — InfoReporting Solutions</title>
+  <title>Articles — InfoReporting Solutions</title>
   <meta name="description" content="Plain-English summaries of recent developments affecting 1099 and 1042-S filers — from the IRIS transition to draft Form W-9 changes and IRS notices." />
   <link rel="icon" href="assets/images/favicon.ico" sizes="any" />
   <link rel="icon" type="image/png" href="assets/images/favicon-32.png" />
   <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png" />
-  <meta property="og:title" content="Insights — InfoReporting Solutions" />
+  <meta property="og:title" content="Articles — InfoReporting Solutions" />
   <meta property="og:description" content="Notes and updates on 1099 / 1042-S information reporting." />
   <meta property="og:type" content="website" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -46,7 +46,7 @@
         <a href="index.html">Home</a>
         <a href="services.html">Services</a>
         <a href="about.html">About</a>
-        <a href="insights.html" class="is-active">Insights</a>
+        <a href="insights.html" class="is-active">Articles</a>
         <a href="contact.html">Contact</a>
       </nav>
       <div class="header-actions">
@@ -62,18 +62,36 @@
     <!-- Page hero -->
     <section class="page-hero">
       <div class="container">
+        <div class="page-hero__seal" aria-hidden="true">
+          <div class="seal">
+            <svg class="seal__type" viewBox="0 0 240 240" aria-hidden="true">
+              <defs>
+                <path id="sealTop" d="M 26 120 A 94 94 0 0 1 214 120" />
+                <path id="sealBot" d="M 214 122 A 94 94 0 0 1 26 122" />
+              </defs>
+              <text class="seal__txt"><textPath href="#sealTop" startOffset="50%">INFOREPORTING&#160;&#160;SOLUTIONS</textPath></text>
+              <text class="seal__txt seal__txt--sub"><textPath href="#sealBot" startOffset="50%">1099&#160;&#160;·&#160;&#160;1042-S&#160;&#160;·&#160;&#160;WITHHOLDING</textPath></text>
+              <rect class="seal__pip" x="22.5" y="116.5" width="7" height="7" transform="rotate(45 26 120)" />
+              <rect class="seal__pip" x="210.5" y="116.5" width="7" height="7" transform="rotate(45 214 120)" />
+            </svg>
+            <div class="seal__core">
+              <img class="seal__bg" src="assets/images/InfoReporting-Crest-shield-white.png" alt="" aria-hidden="true" />
+              <img class="seal__fg" src="assets/images/InfoReporting-Crest-shield-white.png" alt="InfoReporting Solutions" />
+            </div>
+          </div>
+        </div>
         <div class="page-hero__inner">
           <nav class="breadcrumb" aria-label="Breadcrumb">
-            <a href="index.html">Home</a><span>/</span>Insights
+            <a href="index.html">Home</a><span>/</span>Articles
           </nav>
-          <span class="eyebrow eyebrow--light">Insights</span>
+          <span class="eyebrow eyebrow--light">Articles</span>
           <h1>Notes from the reporting front line</h1>
           <p>Plain-English summaries of the changes that affect 1099 and 1042-S filers. For the full analysis behind any update, get in touch.</p>
         </div>
       </div>
     </section>
 
-    <!-- Insights grid -->
+    <!-- Articles grid -->
     <section class="section">
       <div class="container">
         <div class="cards cards--3">
@@ -84,8 +102,9 @@
               <span class="tag">1042-S</span>
               <span class="insight-card__date">May 18, 2026</span>
             </div>
-            <h3>2026 Form 1099 / 1042-S Reporting Checklist for IRIS</h3>
+            <h3><a href="insight-iris-checklist.html">2026 Form 1099 / 1042-S Reporting Checklist for IRIS</a></h3>
             <p>The IRS is retiring FIRE for 2026 information returns. New schema requirements, a $2,000 threshold, and no FIRE TCC carryover mean early action is required. Use this checklist to prepare for the move to IRIS.</p>
+            <a href="insight-iris-checklist.html" class="link-arrow">Read more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
           </article>
 
           <article class="insight-card" data-reveal>
@@ -93,8 +112,9 @@
               <span class="tag">Form W-9</span>
               <span class="insight-card__date">May 12, 2026</span>
             </div>
-            <h3>IRS Revises Draft Form W-9 Again: What the June 2026 Changes Actually Mean</h3>
+            <h3><a href="insight-draft-w9-2026.html">IRS Revises Draft Form W-9 Again: What the June 2026 Changes Actually Mean</a></h3>
             <p>The IRS released a revised draft Form W-9 (June 2026) that changes its stance under the January 2026 draft, in which a sole proprietor was required to provide its Social Security Number rather than an Entity Identification Number.</p>
+            <a href="insight-draft-w9-2026.html" class="link-arrow">Read more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
           </article>
 
           <article class="insight-card" data-reveal>
@@ -102,8 +122,9 @@
               <span class="tag">CP2100</span>
               <span class="insight-card__date">Apr 6, 2026</span>
             </div>
-            <h3>Understand IRS CP2100 and CP2100A Notices</h3>
+            <h3><a href="insight-cp2100-notices.html">Understand IRS CP2100 and CP2100A Notices</a></h3>
             <p>What a CP2100 or CP2100A notice means when the IRS flags a Form 1099 name and Tax Identification Number (TIN) mismatch — and the steps to resolve it before backup withholding is triggered.</p>
+            <a href="insight-cp2100-notices.html" class="link-arrow">Read more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
           </article>
 
           <article class="insight-card" data-reveal>
@@ -111,8 +132,9 @@
               <span class="tag">Form 1042</span>
               <span class="insight-card__date">Mar 3, 2026</span>
             </div>
-            <h3>Hardship Waivers for Form 1042 Electronic Filing — Key Considerations</h3>
+            <h3><a href="insight-1042-hardship-waiver.html">Hardship Waivers for Form 1042 Electronic Filing — Key Considerations</a></h3>
             <p>Key considerations when weighing a hardship waiver from the electronic-filing requirement for Form 1042 — who may qualify, and what to think through before relying on one.</p>
+            <a href="insight-1042-hardship-waiver.html" class="link-arrow">Read more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
           </article>
 
         </div>
@@ -154,7 +176,7 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="services.html">Services</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="insights.html">Insights</a></li>
+          <li><a href="insights.html">Articles</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>
