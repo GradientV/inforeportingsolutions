@@ -1,4 +1,36 @@
 {
+  "redirects": [
+    { "source": "/insights.html", "destination": "/articles.html", "statusCode": 301 },
+    { "source": "/insight-1042-hardship-waiver.html", "destination": "/article-1042-hardship-waiver.html", "statusCode": 301 },
+    { "source": "/insight-1042-mef-efiling.html", "destination": "/article-1042-mef-efiling.html", "statusCode": 301 },
+    { "source": "/insight-cp2100-notices.html", "destination": "/article-cp2100-notices.html", "statusCode": 301 },
+    { "source": "/insight-draft-w9-2026.html", "destination": "/article-draft-w9-2026.html", "statusCode": 301 },
+    { "source": "/insight-filing-extensions-2025.html", "destination": "/article-filing-extensions-2025.html", "statusCode": 301 },
+    { "source": "/insight-iris-checklist.html", "destination": "/article-iris-checklist.html", "statusCode": 301 },
+    { "source": "/insight-year-end-1099-1042-prep.html", "destination": "/article-year-end-1099-1042-prep.html", "statusCode": 301 },
+    { "source": "/compliance-tools.html", "destination": "/self-assessment.html", "statusCode": 301 },
+    { "source": "/compliance-quick-check.html", "destination": "/self-assessment-quick-check.html", "statusCode": 301 },
+    { "source": "/compliance-assessment.html", "destination": "/self-assessment-readiness.html", "statusCode": 301 },
+
+    { "source": "/home", "destination": "/", "statusCode": 301 },
+    { "source": "/about", "destination": "/about.html", "statusCode": 301 },
+    { "source": "/about-us", "destination": "/about.html", "statusCode": 301 },
+    { "source": "/services", "destination": "/services.html", "statusCode": 301 },
+    { "source": "/our-services", "destination": "/services.html", "statusCode": 301 },
+    { "source": "/contact", "destination": "/contact.html", "statusCode": 301 },
+    { "source": "/contact-us", "destination": "/contact.html", "statusCode": 301 },
+    { "source": "/articles", "destination": "/articles.html", "statusCode": 301 },
+    { "source": "/blog", "destination": "/articles.html", "statusCode": 301 },
+    { "source": "/insights", "destination": "/articles.html", "statusCode": 301 },
+    { "source": "/news", "destination": "/articles.html", "statusCode": 301 },
+    { "source": "/self-assessment", "destination": "/self-assessment.html", "statusCode": 301 },
+    { "source": "/privacy", "destination": "/privacy.html", "statusCode": 301 },
+    { "source": "/privacy-policy", "destination": "/privacy.html", "statusCode": 301 },
+    { "source": "/terms", "destination": "/legal.html", "statusCode": 301 },
+    { "source": "/terms-of-use", "destination": "/legal.html", "statusCode": 301 },
+    { "source": "/legal", "destination": "/legal.html", "statusCode": 301 },
+    { "source": "/accessibility", "destination": "/accessibility.html", "statusCode": 301 }
+  ],
   "headers": [
     {
       "source": "/(.*)",

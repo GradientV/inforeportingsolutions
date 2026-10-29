@@ -18,3 +18,7 @@ client_upload/
 
 # Before/after proof screenshots for client reporting — not part of the site
 pdfs/
+
+# Client's shared-folder files (article drafts, offline tools, test data) —
+# source material only; published content gets rebuilt as site pages.
+context/
