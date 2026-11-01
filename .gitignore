@@ -22,3 +22,10 @@ pdfs/
 # Client's shared-folder files (article drafts, offline tools, test data) —
 # source material only; published content gets rebuilt as site pages.
 context/
+
+# Notes, research and AI agent files: kept on this computer, never pushed
+AGENTS.md
+AGENTS-TEMPLATE/
+RESEARCH.md
+/context/
+/Context/
